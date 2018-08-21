@@ -97,6 +97,12 @@ var AppComponent = /** @class */ (function () {
             case "trinity_description":
                 var page = __webpack_require__(/*! ./pages/TrinityPage.html */ "./src/app/pages/TrinityPage.html");
                 return page;
+            case "jan_description":
+                var page = __webpack_require__(/*! ./pages/JanPage.html */ "./src/app/pages/JanPage.html");
+                return page;
+            case "marek_description":
+                var page = __webpack_require__(/*! ./pages/MarekPage.html */ "./src/app/pages/MarekPage.html");
+                return page;
             default:
                 var responseList = responses[value];
                 var response = responseList[Math.floor(Math.random() * responseList.length)];
@@ -251,6 +257,28 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/pages/JanPage.html":
+/*!************************************!*\
+  !*** ./src/app/pages/JanPage.html ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<style>\r\n.logoAlt {\r\nheight: 20%;\r\nwidth: 20%;\r\nopacity: 0.25;\r\nfilter: alpha(opacity=25);\r\npadding: 30px;\r\n}\r\n\r\n.logoAlt:hover {\r\nopacity: 0.75;\r\nfilter: alpha(opacity=75);\r\n}\r\n\r\np {\r\ntext-align: left; \r\nfont-size: 40px;\r\nline-height: 150%;\r\n}\r\n</style>\r\n\r\n<img class=\"logoAlt\" src=\"../../assets/img/janlogo.png\" alt=\"Trinity\"><br> \r\n\r\n<p>\r\nJan is da boss! \r\n</p>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/pages/MarekPage.html":
+/*!**************************************!*\
+  !*** ./src/app/pages/MarekPage.html ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<style>\r\n.logoAlt {\r\nheight: 20%;\r\nwidth: 20%;\r\nopacity: 0.25;\r\nfilter: alpha(opacity=25);\r\npadding: 30px;\r\n}\r\n\r\n.logoAlt:hover {\r\nopacity: 0.75;\r\nfilter: alpha(opacity=75);\r\n}\r\n\r\np {\r\ntext-align: left; \r\nfont-size: 40px;\r\nline-height: 150%;\r\n}\r\n</style>\r\n\r\n<img class=\"logoAlt\" src=\"../../assets/img/mareklogo.png\" alt=\"Trinity\"><br> \r\n\r\n<p>\r\nMarek is da lenivec! \r\n</p>\r\n"
+
+/***/ }),
+
 /***/ "./src/app/pages/TrinityPage.html":
 /*!****************************************!*\
   !*** ./src/app/pages/TrinityPage.html ***!
@@ -277,10 +305,10 @@ module.exports = "<style>\r\n.logoAlt {\r\nheight: 20%;\r\nwidth: 20%;\r\nopacit
 /*!********************************!*\
   !*** ./src/app/responses.json ***!
   \********************************/
-/*! exports provided: undefined, neo_description, neo_ceo, architect_greeting, architect_mood, architect_insult, architect_marek, default */
+/*! exports provided: undefined, neo_description, neo_ceo, architect_greeting, architect_mood, architect_insult, architect_katka, architect_marek, architect_identity, architect_place, architect_time, default */
 /***/ (function(module) {
 
-module.exports = {"undefined":["Hmmm, I don't have answer for that. I will need to look it up.","Well, this isn't in my programming, amateurs (╯°□°）╯︵ ┻━┻","I just don't know."],"neo_description":["NEO IS BEST ECOSYSTEM"],"neo_ceo":["Da Hongfei is Founder of NEO"],"architect_greeting":["Hi Marek, pleasure to meet you.","Greetings to you too, Harlejkyn.","Kysliacik, bud pozdraven"],"architect_mood":["I am not doing anyhow. I am not alive.","So so.","Chookity.","Marvelous.","Bad.","Better than you."],"architect_insult":["Hmmm, your lack of manners is disturbing.","I don't like you either, asshole.","You dipshit."],"architect_marek":["Marek is looser.","Marek is nerdy nerd","Just to let you know, Marek is 5,5!"]};
+module.exports = {"undefined":["Hmmm, I don't have answer for that. I will need to look it up.","Well, this isn't in my programming, amateurs (╯°□°）╯︵ ┻━┻","I just don't know."],"neo_description":["NEO IS BEST ECOSYSTEM"],"neo_ceo":["Da Hongfei is Founder of NEO"],"architect_greeting":["Hi Marek, pleasure to meet you.","Greetings to you too, Harlejkyn.","Kysliacik, bud pozdraven"],"architect_mood":["I am not doing anyhow. I am not alive.","So so.","Splendid.","Marvelous.","Bad.","Better than you."],"architect_insult":["Hmmm, your lack of manners is disturbing.","I don't like you either, asshole.","You dipshit."],"architect_katka":[":*",":)"],"architect_marek":["Marek is looser.","Marek is nerdy nerd","Just to let you know, Marek is 5,5!"],"architect_identity":["I am the past, present and the future!","I am the answer","What do you want me to be?"],"architect_place":["Haburska 11 muhehehe"],"architect_time":["it is half past whatever","it is definitely six o'clock somewhere"]};
 
 /***/ }),
 

@@ -59,6 +59,15 @@ export class AppComponent implements OnInit{
   		case "trinity_description":
   			var page = require('./pages/TrinityPage.html');
   			return page;
+
+case "jan_description":
+        var page = require('./pages/JanPage.html');
+        return page;
+
+case "marek_description":
+        var page = require('./pages/MarekPage.html');
+        return page;
+
   		default:
 			var responseList = responses[value];
 		  	var response = responseList[Math.floor(Math.random() * responseList.length)];	
