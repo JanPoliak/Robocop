@@ -109,12 +109,14 @@ export class AppComponent implements OnInit{
   	}
   }
 
-  initialize() {
-  	
-	{
-    	this.initMsg = "Waking Up";
-	},
-	6000);
+ initialize() {
+    this.initMsg = "Initializing core modules";
+
+    setTimeout(() => 
+  {
+      this.initMsg = "Waking Up";
+  },
+  2000);
 
 	setTimeout(() => 
 	{
