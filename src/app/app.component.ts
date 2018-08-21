@@ -29,7 +29,7 @@ export class AppComponent implements OnInit{
 
   constructor(private http: Http) { }
 
-  title = 'neo-architect';
+  title = 'Robocop';
   initMsg = "";
   query = "";
   response = "";

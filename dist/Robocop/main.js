@@ -73,7 +73,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var AppComponent = /** @class */ (function () {
     function AppComponent(http) {
         this.http = http;
-        this.title = 'neo-architect';
+        this.title = 'Robocop';
         this.initMsg = "";
         this.query = "";
         this.response = "";
